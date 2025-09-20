@@ -1,9 +1,6 @@
-function addToCart(button) {
-  if (button.innerText === "Add to Cart") {
-    button.innerText = "Remove from Cart";
-    button.style.backgroundColor = "red";
-  } else {
-    button.innerText = "Add to Cart";
-    button.style.backgroundColor = "";
-  }
+document.getElementById('buttons').addEventListener('click', submit);
+
+function submit() {
+  alert("Successfully a message")
+  alert("Thank You")
 }
