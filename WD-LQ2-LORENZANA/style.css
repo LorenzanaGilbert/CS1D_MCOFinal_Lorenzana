@@ -1,0 +1,42 @@
+.stick {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 999;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    background-color: blue;
+}
+
+.navbar-center a,
+.navbar-right a,
+.navbar-left {
+    margin: 0 10px;
+    background-color: white;
+}
+.newsfeed img{
+    width: 50px;
+}
+.feed-container {
+    margin: auto;
+    padding: 2rem;
+}
+.post-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fafafa;
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
