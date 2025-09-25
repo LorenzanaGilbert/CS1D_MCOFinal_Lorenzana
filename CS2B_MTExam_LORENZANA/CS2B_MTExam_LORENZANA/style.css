@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background: #444;
+  padding: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #eee;
+  padding: 50px;
+  text-align: center;
+}
+
+.tourist, .products {
+  padding: 20px;
+}
+
+.spot, .product-card {
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
