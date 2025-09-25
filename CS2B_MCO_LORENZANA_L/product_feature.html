@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Product Feature Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="product-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home (About Me)</a></li>
+                <li><a href="#about-product">About Product</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="product_shop_gallery.html">Product Shop Gallery</a></li> <!-- Placeholder for another page -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="img/Coffee Shop.jpg" alt="Coffee Shop Startups Hero Image" class="hero-image" height="200px" width="200px">
+        <h1>Introducing the Coffee Shop Startups!</h1>
+    </div>
+
+    <main class="product-main">
+        <section id="about-product" class="product-section">
+            <h2>About the Coffee Shop Startups</h2>
+            <p>A coffee shop startup is a new business that requires thorough planning, including developing a strong concept, securing a good location, creating a compelling menu and brand, and managing finances and operations.</p>
+        </section>
+
+        <section id="features" class="product-section">
+            <h2>Product Feature Presentation</h2>
+            <div class="Macchiato Coffee">
+                <h3>Sleek Design & Durability</h3>
+                <img src="img/Macchiato.jpg" alt="Feature 1 - Sleek Design" width="200px">
+                <p>Macchiato is an Italian espresso-based drink consisting of a shot of espresso "stained" or "marked" with a small amount of foamed or steamed milk.</p>
+            </div>
+            <div class="Espresso Coffee">
+                <h3>Intuitive User Interface</h3>
+                <img src="img/Espresso Coffee.jpg" alt="Feature 2 - Intuitive UI">
+                <p>Espresso is a concentrated coffee beverage made by forcing hot, high-pressure water through finely-ground, compacted coffee beans.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Long-lasting Battery Life</h3>
+                <img src="feature3.jpg" alt="Feature 3 - Battery Life">
+                <p>Stay powered throughout your day with the Amazing Widget's extended battery life. Optimized for efficiency, it keeps up with your demands without constant recharging.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="product-section">
+            <h2>Photo Gallery</h2>
+            <div class="photo-gallery">
+                <img src="gallery1.jpg" alt="Widget in use 1">
+                <img src="gallery2.jpg" alt="Widget in use 2">
+                <img src="gallery3.jpg" alt="Widget close-up">
+                <img src="gallery4.jpg" alt="Widget with accessories">
+            </div>
+        </section>
+    </main>
+
+    <footer class="shop-footer">
+        <h3>Contact Us for Product Inquiries</h3>
+        <form class="contact-form">
+            <label for="p-name">Your Name:</label>
+            <input type="text" id="p-name" name="name" required><br>
+
+            <label for="p-email">Your Email:</label>
+            <input type="email" id="p-email" name="email" required><br>
+
+            <label for="p-subject">Subject:</label>
+            <input type="text" id="p-subject" name="subject"><br>
+
+            <label for="p-message">Message:</label>
+            <textarea id="p-message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Send Inquiry</button>
+        </form>
+        <p>&copy; 2023 Amazing Widget Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
