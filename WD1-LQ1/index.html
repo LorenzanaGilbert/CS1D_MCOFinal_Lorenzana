@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bike Motorcycle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        .nav {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Gallery Styles */
+        .gallery-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .gallery-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .gallery-item-photo {
+            width: 200px;
+            height: 200px;
+            object-fit: cover; /* Ensures the image fills the dimensions */
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A.1 Header (Photo Banner) Name of Shop -->
+    <header class="header">
+        <h1>Motobigbike Shop</h1>
+        <img src="images/banner.jpg" alt="Shop Banner" style="width:50%;">
+    </header>
+
+    <!-- A.2 Navigation as Single Page Section Anchors -->
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#shop-info">Shop Information</a>
+        <a href="#shop-gallery">Shop Gallery</a>
+        <a href="#footer">Footer</a>
+    </nav>
+
+    <!-- A.3 Content 1 - Shop Information -->
+    <section id="shop-info" class="section">
+        <h2>Shop Information</h2>
+        <h5>Motobigbike Shop</h5>
+        <h5>Shop Address</h5>
+        <p>Sawat, Tagudin, Ilocos Sur</p>
+        <h5>Shop Number</h5>
+        <p>09955246126</p>
+        <h5>Shop Email Address</h5>
+        <p>motobigbikeexample.com</p>
+        <h5>Operating Hours</h5>
+        <p>Monday - Friday, 9 AM - 5 PM</p>
+    </section>
+
+    <!-- A.4 Content 2 - Shop Gallery (12 Items in a table 4x3) -->
+    <section id="shop-gallery" class="section">
+        <h2>Shop Gallery</h2>
+        <table class="gallery-table">
+            <tr>
+                <td>
+                    <img src="images/kawasakininija H2R.jpg" alt="Item 1" class="gallery-item-photo">
+                    <h3><b>Kawasaki Ninja H2R</b></h3>
+                    <p>Is a Track-only hypersport motorcycle</p>
+                    <h3><b>Php 1.855m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="images/Yamaha MT-10.png" alt="Item 2" class="gallery-item-photo">
+                    <h3><b>Yamaha MT-10</b></h3>
+                    <p>Hyper Naked motorcycle known for its powerful 998cc</p>
+                    <h3><b>Php 1.99m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="images/Kawasaki Ninja ZX 10R.webp" alt="Item 3" class="gallery-item-photo">
+                    <h3><b>Kawasaki Ninja ZX 10R</b></h3>
+                    <p>Designed for high performance featuring a 998cc</p>
+                    <h3><b>Php 1.550m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                 <td>
+                    <img src="images/Yamaha V-max.jpg" alt="Item 4" class="gallery-item-photo">
+                    <h3><b>Yamaha V-max</b></h3>
+                    <p>High performance motorcycle known as a muscle bike</p>
+                    <h3><b>Php 1.773m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/Yamaha YZF- R1.jpg" alt="Item 5" class="gallery-item-photo">
+                    <h3><b>Yamaha YZF- R1</b></h3>
+                    <p>998cc inline four engine with Yamaha's crossplane crankshsft technology</p>
+                    <h3><b>Php 1.575m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="images/ninja-1000-left-side-view.avif" alt="Item 6" class="gallery-item-photo">
+                    <h3><b>Kawasaki Ninja 1000sx</b></h3>
+                    <p>Versatile sport touring motorcycle known for its powerful 1,043cc</p>
+                    <h3><b>Php 718,000 </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                 <td>
+                    <img src="images/Yamaha FZ6R.avif" alt="Item 7" class="gallery-item-photo">
+                    <h3><b>Yamaha FZ6R</b></h3>
+                    <p>600cc 4-stroke liquid cooled inline four sportbike</p>
+                    <h3><b>Php 93,900 </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                 <td>
+                    <img src="images/honda cb1000r.jpg" alt="Item 8" class="gallery-item-photo">
+                    <h3><b>Honda CB1000R</b></h3>
+                    <p>Modern sports naked motorcycle with a distinctive neo sports</p>
+                    <h3><b>Php 865,000 </b></h3>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/Kawasaki Z400.jpg" alt="Item 9" class="gallery-item-photo">
+                    <h3><b>Kawasaki Z400</b></h3>
+                    <p>Lightweight entry level naked sportbike featuring a 399cc</p>
+                    <h3><b>Php 279,000 </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="images/Z1000.jpg" alt="Item 10" class="gallery-item-photo">
+                    <h3><b>Z1000</b></h3>
+                    <p>Sport-touring motorcycle</p>
+                    <h3><b>Php 722,000 </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                 <td>
+                    <img src="images/BMW M1000.webp" alt="Item 11" class="gallery-item-photo">
+                    <h3><b>BMW M1000</b></h3>
+                    <p>Water/oil-cooled 4-cylinder 4-stroke in-line engine</p>
+                    <h3><b>Php 2.395m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+                 <td>
+                    <img src="images/Verge TS Electric BIke .jpg" alt="Item 12" class="gallery-item-photo">
+                    <h3><b>Verge TS Electric Bike</b></h3>
+                    <p>4.5-second dash to 60 mph and a 155-mile range</p>
+                    <h3><b>Php 2.5m </b></h3>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- A.5 Footer -->
+    <footer id="footer" class="footer">
+        <p>Developed by: Gilbert Lorenzana</p>
+        <p>BSCS 2B</p>
+    </footer>
+
+</body>
+</html>
